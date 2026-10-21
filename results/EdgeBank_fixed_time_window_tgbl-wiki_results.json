@@ -5,6 +5,6 @@
     "run": 1,
     "seed": 1,
     "mrr": 0.5710241198539734,
-    "test_time": 18.08835056900034,
+    "test_time": 16.62983972500001,
     "tot_train_val_time": "NA"
 }
