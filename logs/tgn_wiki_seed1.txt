@@ -1,0 +1,94 @@
+/kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/tgn.py:168: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  "y_pred_neg": np.array(y_pred[1:, :].squeeze(dim=-1).cpu()),
+INFO: Arguments: Namespace(data='tgbl-wiki', lr=0.0001, bs=200, k_value=10, num_epoch=30, seed=1, mem_dim=100, time_dim=100, emb_dim=100, tolerance=1e-06, patience=5, num_run=1)
+==========================================================
+=================*** TGN: LinkPropPred: tgbl-wiki ***=============
+==========================================================
+-------------------------------------------------------------------------------
+INFO: >>>>> Run: 0 <<<<<
+INFO: Create directory /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models/
+Epoch: 01, Loss: 1.3212, Training elapsed Time (s):  14.0254
+	Validation mrr:  0.0553
+	Validation: Elapsed time (s):  76.1769
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 02, Loss: 1.1875, Training elapsed Time (s):  12.4592
+	Validation mrr:  0.1225
+	Validation: Elapsed time (s):  76.1047
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 03, Loss: 1.1669, Training elapsed Time (s):  12.2763
+	Validation mrr:  0.1162
+	Validation: Elapsed time (s):  76.5023
+Epoch: 04, Loss: 1.1551, Training elapsed Time (s):  12.7132
+	Validation mrr:  0.1348
+	Validation: Elapsed time (s):  76.3257
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 05, Loss: 1.1493, Training elapsed Time (s):  12.3998
+	Validation mrr:  0.1415
+	Validation: Elapsed time (s):  76.1477
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 06, Loss: 1.1453, Training elapsed Time (s):  12.3596
+	Validation mrr:  0.1676
+	Validation: Elapsed time (s):  75.7708
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 07, Loss: 1.1386, Training elapsed Time (s):  12.4296
+	Validation mrr:  0.1830
+	Validation: Elapsed time (s):  76.5753
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 08, Loss: 1.1338, Training elapsed Time (s):  12.9219
+	Validation mrr:  0.2463
+	Validation: Elapsed time (s):  77.4658
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 09, Loss: 1.1314, Training elapsed Time (s):  12.6337
+	Validation mrr:  0.3087
+	Validation: Elapsed time (s):  76.2591
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 10, Loss: 1.1230, Training elapsed Time (s):  12.5713
+	Validation mrr:  0.3213
+	Validation: Elapsed time (s):  76.4099
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 11, Loss: 1.1235, Training elapsed Time (s):  12.3826
+	Validation mrr:  0.3012
+	Validation: Elapsed time (s):  75.8834
+Epoch: 12, Loss: 1.1199, Training elapsed Time (s):  12.1807
+	Validation mrr:  0.3216
+	Validation: Elapsed time (s):  75.4732
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 13, Loss: 1.1185, Training elapsed Time (s):  12.4131
+	Validation mrr:  0.3874
+	Validation: Elapsed time (s):  75.4160
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+Epoch: 14, Loss: 1.1155, Training elapsed Time (s):  12.1963
+	Validation mrr:  0.3675
+	Validation: Elapsed time (s):  75.0973
+Epoch: 15, Loss: 1.1166, Training elapsed Time (s):  12.2418
+	Validation mrr:  0.3289
+	Validation: Elapsed time (s):  75.5368
+Epoch: 16, Loss: 1.1150, Training elapsed Time (s):  12.5614
+	Validation mrr:  0.3556
+	Validation: Elapsed time (s):  75.1407
+Epoch: 17, Loss: 1.1156, Training elapsed Time (s):  12.2841
+	Validation mrr:  0.3419
+	Validation: Elapsed time (s):  75.4500
+Epoch: 18, Loss: 1.1137, Training elapsed Time (s):  12.2888
+	Validation mrr:  0.3529
+	Validation: Elapsed time (s):  75.2314
+Train & Validation: Elapsed Time (s):  1592.3976
+INFO: load the model of epoch 13 from /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_1_0.pth
+INFO: Test: Evaluation Setting: >>> ONE-VS-MANY <<< 
+	Test: mrr:  0.3469
+	Test: Elapsed Time (s):  76.3366
+INFO: >>>>> Run: 0, elapsed time:  1669.6691 <<<<<
+-------------------------------------------------------------------------------
+Overall Elapsed Time (s):  1670.2703
+==============================================================
