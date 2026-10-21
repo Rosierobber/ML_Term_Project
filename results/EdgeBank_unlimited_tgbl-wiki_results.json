@@ -1,0 +1,10 @@
+{
+    "model": "EdgeBank",
+    "memory_mode": "unlimited",
+    "data": "tgbl-wiki",
+    "run": 1,
+    "seed": 1,
+    "mrr": 0.4946681559085846,
+    "test_time": 18.19258829499995,
+    "tot_train_val_time": "NA"
+}
