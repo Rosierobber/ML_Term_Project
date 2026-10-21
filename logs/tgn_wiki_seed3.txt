@@ -1,0 +1,143 @@
+/kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/tgn.py:168: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  "y_pred_neg": np.array(y_pred[1:, :].squeeze(dim=-1).cpu()),
+INFO: Arguments: Namespace(data='tgbl-wiki', lr=0.0001, bs=200, k_value=10, num_epoch=30, seed=3, mem_dim=100, time_dim=100, emb_dim=100, tolerance=1e-06, patience=5, num_run=1)
+==========================================================
+=================*** TGN: LinkPropPred: tgbl-wiki ***=============
+==========================================================
+-------------------------------------------------------------------------------
+INFO: >>>>> Run: 0 <<<<<
+Epoch: 01, Loss: 1.3255, Training elapsed Time (s):  12.9404
+	Validation mrr:  0.0525
+	Validation: Elapsed time (s):  74.8250
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 02, Loss: 1.1952, Training elapsed Time (s):  11.9870
+	Validation mrr:  0.1006
+	Validation: Elapsed time (s):  74.6751
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 03, Loss: 1.1742, Training elapsed Time (s):  12.0685
+	Validation mrr:  0.1122
+	Validation: Elapsed time (s):  74.5722
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 04, Loss: 1.1613, Training elapsed Time (s):  12.1068
+	Validation mrr:  0.1152
+	Validation: Elapsed time (s):  74.9591
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 05, Loss: 1.1540, Training elapsed Time (s):  12.0002
+	Validation mrr:  0.1219
+	Validation: Elapsed time (s):  74.6967
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 06, Loss: 1.1542, Training elapsed Time (s):  12.1266
+	Validation mrr:  0.1382
+	Validation: Elapsed time (s):  74.6918
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 07, Loss: 1.1494, Training elapsed Time (s):  12.0435
+	Validation mrr:  0.1315
+	Validation: Elapsed time (s):  74.8727
+Epoch: 08, Loss: 1.1442, Training elapsed Time (s):  12.0874
+	Validation mrr:  0.1602
+	Validation: Elapsed time (s):  74.6605
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 09, Loss: 1.1413, Training elapsed Time (s):  12.0433
+	Validation mrr:  0.1718
+	Validation: Elapsed time (s):  74.7417
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 10, Loss: 1.1398, Training elapsed Time (s):  11.9978
+	Validation mrr:  0.1840
+	Validation: Elapsed time (s):  74.8989
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 11, Loss: 1.1352, Training elapsed Time (s):  12.0571
+	Validation mrr:  0.2540
+	Validation: Elapsed time (s):  74.5943
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 12, Loss: 1.1328, Training elapsed Time (s):  12.0906
+	Validation mrr:  0.3088
+	Validation: Elapsed time (s):  74.5803
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 13, Loss: 1.1270, Training elapsed Time (s):  12.2641
+	Validation mrr:  0.2940
+	Validation: Elapsed time (s):  74.5984
+Epoch: 14, Loss: 1.1230, Training elapsed Time (s):  12.1110
+	Validation mrr:  0.3203
+	Validation: Elapsed time (s):  74.6400
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 15, Loss: 1.1189, Training elapsed Time (s):  12.0802
+	Validation mrr:  0.3102
+	Validation: Elapsed time (s):  74.8761
+Epoch: 16, Loss: 1.1186, Training elapsed Time (s):  12.2190
+	Validation mrr:  0.3275
+	Validation: Elapsed time (s):  74.5460
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 17, Loss: 1.1169, Training elapsed Time (s):  12.0712
+	Validation mrr:  0.3153
+	Validation: Elapsed time (s):  74.7391
+Epoch: 18, Loss: 1.1145, Training elapsed Time (s):  11.9633
+	Validation mrr:  0.3565
+	Validation: Elapsed time (s):  74.6768
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 19, Loss: 1.1154, Training elapsed Time (s):  12.2443
+	Validation mrr:  0.3618
+	Validation: Elapsed time (s):  74.5550
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 20, Loss: 1.1124, Training elapsed Time (s):  12.1112
+	Validation mrr:  0.3554
+	Validation: Elapsed time (s):  74.4842
+Epoch: 21, Loss: 1.1134, Training elapsed Time (s):  11.9349
+	Validation mrr:  0.3662
+	Validation: Elapsed time (s):  74.7995
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 22, Loss: 1.1114, Training elapsed Time (s):  12.4200
+	Validation mrr:  0.3249
+	Validation: Elapsed time (s):  75.1278
+Epoch: 23, Loss: 1.1122, Training elapsed Time (s):  12.1732
+	Validation mrr:  0.3753
+	Validation: Elapsed time (s):  74.9492
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 24, Loss: 1.1109, Training elapsed Time (s):  12.2564
+	Validation mrr:  0.3434
+	Validation: Elapsed time (s):  77.1275
+Epoch: 25, Loss: 1.1111, Training elapsed Time (s):  12.9526
+	Validation mrr:  0.3654
+	Validation: Elapsed time (s):  75.9992
+Epoch: 26, Loss: 1.1109, Training elapsed Time (s):  12.5804
+	Validation mrr:  0.3690
+	Validation: Elapsed time (s):  76.2840
+Epoch: 27, Loss: 1.1085, Training elapsed Time (s):  12.4097
+	Validation mrr:  0.3733
+	Validation: Elapsed time (s):  75.7711
+Epoch: 28, Loss: 1.1080, Training elapsed Time (s):  12.5174
+	Validation mrr:  0.3925
+	Validation: Elapsed time (s):  75.6797
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+Epoch: 29, Loss: 1.1074, Training elapsed Time (s):  12.2712
+	Validation mrr:  0.3543
+	Validation: Elapsed time (s):  75.8321
+Epoch: 30, Loss: 1.1074, Training elapsed Time (s):  12.4085
+	Validation mrr:  0.3910
+	Validation: Elapsed time (s):  75.7728
+Train & Validation: Elapsed Time (s):  2617.9034
+INFO: load the model of epoch 28 from /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//TGN_tgbl-wiki_3_0.pth
+INFO: Test: Evaluation Setting: >>> ONE-VS-MANY <<< 
+	Test: mrr:  0.3279
+	Test: Elapsed Time (s):  76.7605
+INFO: >>>>> Run: 0, elapsed time:  2695.5711 <<<<<
+-------------------------------------------------------------------------------
+Overall Elapsed Time (s):  2696.0617
+==============================================================
