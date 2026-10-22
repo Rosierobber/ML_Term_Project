@@ -1,0 +1,52 @@
+/kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/dyrep.py:160: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  "y_pred_neg": np.array(y_pred[1:, :].squeeze(dim=-1).cpu()),
+INFO: Arguments: Namespace(data='tgbl-wiki', lr=0.0001, bs=200, k_value=10, num_epoch=30, seed=2, mem_dim=100, time_dim=100, emb_dim=100, tolerance=1e-06, patience=5, num_run=1)
+==========================================================
+=================*** DyRep: LinkPropPred: tgbl-wiki ***=============
+==========================================================
+-------------------------------------------------------------------------------
+INFO: >>>>> Run: 0 <<<<<
+Epoch: 01, Loss: 1.3904, Training elapsed Time (s):  22.6833
+	Validation mrr:  0.0103
+	Validation: Elapsed time (s):  46.8772
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//DyRep_tgbl-wiki_2_0.pth
+Epoch: 02, Loss: 1.2940, Training elapsed Time (s):  21.8608
+	Validation mrr:  0.0222
+	Validation: Elapsed time (s):  47.0597
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//DyRep_tgbl-wiki_2_0.pth
+Epoch: 03, Loss: 1.2440, Training elapsed Time (s):  21.7856
+	Validation mrr:  0.0478
+	Validation: Elapsed time (s):  47.2927
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//DyRep_tgbl-wiki_2_0.pth
+Epoch: 04, Loss: 1.2004, Training elapsed Time (s):  21.7159
+	Validation mrr:  0.0574
+	Validation: Elapsed time (s):  47.6721
+INFO: save a checkpoint...
+INFO: save the model to /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//DyRep_tgbl-wiki_2_0.pth
+Epoch: 05, Loss: 1.1895, Training elapsed Time (s):  21.6819
+	Validation mrr:  0.0509
+	Validation: Elapsed time (s):  47.0951
+Epoch: 06, Loss: 1.1787, Training elapsed Time (s):  21.6217
+	Validation mrr:  0.0556
+	Validation: Elapsed time (s):  47.1673
+Epoch: 07, Loss: 1.1726, Training elapsed Time (s):  21.7899
+	Validation mrr:  0.0512
+	Validation: Elapsed time (s):  47.3479
+Epoch: 08, Loss: 1.1687, Training elapsed Time (s):  21.4187
+	Validation mrr:  0.0417
+	Validation: Elapsed time (s):  47.1943
+Epoch: 09, Loss: 1.1626, Training elapsed Time (s):  21.5021
+	Validation mrr:  0.0362
+	Validation: Elapsed time (s):  47.4925
+Train & Validation Total Elapsed Time (s):  621.2907
+INFO: load the model of epoch 4 from /kaggle/working/ML_Term_Project/third_party/TGB/examples/linkproppred/tgbl-wiki/saved_models//DyRep_tgbl-wiki_2_0.pth
+INFO: Test: Evaluation Setting: >>> ONE-VS-MANY <<< 
+	Test: mrr:  0.0450
+	Test: Elapsed Time (s):  46.7088
+INFO: >>>>> Run: 0, elapsed time:  668.8824 <<<<<
+-------------------------------------------------------------------------------
+Overall Elapsed Time (s):  669.4314
+==============================================================
