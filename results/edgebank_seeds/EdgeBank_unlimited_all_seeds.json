@@ -1,0 +1,32 @@
+[
+    {
+        "model": "EdgeBank",
+        "memory_mode": "unlimited",
+        "data": "tgbl-wiki",
+        "run": 1,
+        "seed": 1,
+        "mrr": 0.4946681559085846,
+        "test_time": 18.150049787,
+        "tot_train_val_time": "NA"
+    },
+    {
+        "model": "EdgeBank",
+        "memory_mode": "unlimited",
+        "data": "tgbl-wiki",
+        "run": 1,
+        "seed": 2,
+        "mrr": 0.4946681559085846,
+        "test_time": 17.839812313999914,
+        "tot_train_val_time": "NA"
+    },
+    {
+        "model": "EdgeBank",
+        "memory_mode": "unlimited",
+        "data": "tgbl-wiki",
+        "run": 1,
+        "seed": 3,
+        "mrr": 0.4946681559085846,
+        "test_time": 17.712091567000016,
+        "tot_train_val_time": "NA"
+    }
+]
