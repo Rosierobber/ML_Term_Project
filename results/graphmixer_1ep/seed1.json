@@ -1,0 +1,27 @@
+{
+    "data": "tgbl-wiki",
+    "model": "GraphMixer",
+    "run": 0,
+    "seed": 1,
+    "LR": 0.0001,
+    "train_time_list": [
+        28.879588609000052
+    ],
+    "val_time_list": [
+        3603.375116889
+    ],
+    "epoch_time_list": [
+        3632.254708556
+    ],
+    "validation mrr": [
+        0.18962836265563965
+    ],
+    "avg_train_time": 28.879588609000052,
+    "avg_val_time": 3603.375116889,
+    "avg_epoch_time": 3632.254708556,
+    "total_train_val_time": 3632.7804057640005,
+    "test_time": 3676.172349464,
+    "num_epoch": 1,
+    "best validation mrr": 0.18962836265563965,
+    "test mrr": 0.189231276512146
+}
