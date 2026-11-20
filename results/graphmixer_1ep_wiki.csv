@@ -1,0 +1,4 @@
+seed,epochs_run,best_epoch,train_roc_auc_at_best,failed,val_mrr,test_mrr,train_val_time_s
+1,1,1,0.8034,False,0.1896,0.1892,3632.780406
+2,1,1,0.5001,True,0.002,0.002,3630.521179
+3,1,1,0.8127,False,0.1369,0.139,3337.282262
